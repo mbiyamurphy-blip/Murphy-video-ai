@@ -1,0 +1,13 @@
+import torch
+
+class VideoAIPipeline:
+    def __init__(self):
+        print("Initialisation du pipeline IA (Vidéo + Son) pour Murphy-video-ai...")
+
+    def generate(self, prompt: str):
+        print(f"Génération en cours pour le texte : '{prompt}'")
+        return "output.mp4"
+
+if __name__ == "__main__":
+    ai = VideoAIPipeline()
+    ai.generate("Un paysage futuriste avec effet sonore cinématique.")
